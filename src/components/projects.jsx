@@ -7,32 +7,35 @@ import { Link } from 'react-router-dom'
 const Projects = () => {
   return (
     <div>
-      <div className='text-4xl md:font-serif'><center>OUR PROJECTS</center></div>  
-      <div className='flex'>
+      <div className='text-4xl md:font-serif p-6 '><center>OUR PROJECTS</center></div>  
+      <div className='flex flex-col lg:flex-row gap-11 mt-14 justify-center items-center m-5'>
         <Link to={'/completed'}>
-        <div> 
-            <div className='h-full '>
-            <img src={prathmesh_harmony} className='h-full'></img>
+        <div className='w-[400px] flex flex-col m-4'> 
+            <div className=''>
+            <img src={prathmesh_harmony} className='w-[400px]'></img>
             
             </div>
+            <button className='mt-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Completed</button>
         </div>
         </Link>
 
         <Link to={'/ongoing'}>
-        <div >
-            <div className='h-full'>
-            <img src={residence4} className='h-full'></img>
+        <div className='w-[400px] p-3 flex flex-col m-4'>
+            <div className=''>
+            <img src={residence4} className='w-[400px]'></img>
             
             </div>
+            <button className='mt-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Ongoing</button>
         </div>
         </Link>
 
-        <Link to={'/completed'}>
-        <div>
-            <div className='h-full'>
+        <Link to={'/upcoming'}>
+        <div className='w-[400px] p-3 flex flex-col m-4'>
+            <div className=''>
                 
-            <img src={symphony2} className='h-full'></img>
+            <img src={symphony2} className='w-[400px]'></img>
             </div>
+            <button className='mt-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>Upcoming</button>
         </div>
         </Link>
 

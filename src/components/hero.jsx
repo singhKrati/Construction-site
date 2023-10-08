@@ -1,6 +1,6 @@
 import React from 'react'
 import hero_api from '../Api/hero_api'
-import Navbar from './navbar'
+import Navbar from './Navbar'
 
 
 const Hero = () => {

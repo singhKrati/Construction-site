@@ -8,13 +8,14 @@ import {TfiPencil} from 'react-icons/tfi'
 
 const About = () => {
   return (
-    <div >
+    <div  className='w-full h-full '>
 
-      <div className='bg-slate-500 text-5xl mb-24'><center><h1 className='align-middle'>About Us</h1></center></div>
+      <div className=' text-5xl mb-24'><center><h1 className='align-middle '>About Us</h1></center></div>
+  
 
-      <div className='flex bg-red-50 '>
-          <div className=''>
-              <div className='bg-yellow-300 w-4/5 ml-20'>
+      <div className='flex  flex-col-reverse justify-center items-center lg:flex-row gap-3  m-2'>
+          <div className='w-1/2'>
+              <div className='lg:m-6 pb-8 lg:pl-3 text-sm lg:text-xl'>
                 
                 Harmony Infra Realty is a proprietary concern and a sister
                 company of Prathmesh Construction. We are having more than
@@ -23,37 +24,37 @@ const About = () => {
                 western and central Railways.
                 
               </div>
-              <div className='bg-red-600'>
-                  <div className='flex'>
+              <div className='lg:pl-20 flex flex-col gap-8'>
+                  <div className='flex gap-4'>
                     <div>
                         <RiTeamFill size={30} color='orange'/>
                     </div>
                     <div>
-                        Professional Approach
-                        <div className='w-60'>
+                        <p className='text-lg font-bold'>Professional Approach</p>
+                        <div className='w-full'>
                           Our approach to building sustainable facilities is based on high professionalism and delivering projects with fairness and excellence.</div>
                     </div>
                   </div>
 
-                  <div className='flex'>
+                  <div className='flex gap-4'>
                     <div>
                         <SiGoogledocs size={30} color='orange'/>
                     </div>
                     <div>
-                        Experienced Team 
-                        <div className='w-60'>
+                    <p className='text-lg font-bold'>Experienced Team </p>
+                        <div className='w-full'>
                         We employ the best experts in construction that make our every project a reliable one. You can trust each member of Edifice team.
                         </div>
                     </div>
                   </div>
 
-                  <div className='flex'>
+                  <div className='flex gap-4'>
                     <div>
                         <TfiPencil size={30} color='orange'/>
                     </div>
                     <div>
-                        Best Solutions
-                        <div className='w-60'>
+                    <p className='text-lg font-bold'>Best Solutions</p>
+                        <div className='w-full'>
                         Our company offers top-notch construction solutions to corporate and individual clients worldwide, while also covering their needs.
                         </div>
                     </div>
@@ -61,8 +62,8 @@ const About = () => {
               </div>
           </div>
 
-          <div className='h-full bg-green-400 w-full'>
-              <img src={intro} className='w-full h'></img>
+          <div className=' w-1/2'>
+              <img src={intro} className='w-[450px] m-auto'></img>
           </div>
 
       </div>
