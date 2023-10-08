@@ -1,6 +1,8 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './Home'
+import About from './components/About'
+import Projects from './components/Projects'
 import Completed from './pages/completed'
 import Ongoing from './pages/ongoing'
 import Upcoming from './pages/upcoming'
@@ -9,12 +11,9 @@ import Upcoming from './pages/upcoming'
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/completed' element={<Completed/>}></Route>
-        <Route path='/ongoing' element={<Ongoing/>}></Route>
-        <Route path='/upcoming' element={<Upcoming/>}></Route>
-      </Routes>
+    
+     <About/>
+     <Projects/>
     </BrowserRouter>
   )
 }
