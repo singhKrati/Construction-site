@@ -27,7 +27,7 @@ const Projects = () => {
         </div>
         </Link>
 
-        <Link to={'/completed'}>
+        <Link to={'/upcoming'}>
         <div>
             <div className='h-full'>
                 
