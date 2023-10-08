@@ -1,15 +1,18 @@
 import React from 'react'
 import hero_api from '../Api/hero_api'
 import Navbar from './Navbar'
+import hero_image from '../assets/hero_image.jpg'
+import './hero.css'
 
 
 const Hero = () => {
   return (
    
     <div>
-<Navbar/>
-
+        <div className='back_image'>
+            
         </div>
+    </div>
     
   )
 }

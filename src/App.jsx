@@ -6,12 +6,12 @@ import Projects from './components/Projects'
 import Completed from './pages/completed'
 import Ongoing from './pages/ongoing'
 import Upcoming from './pages/upcoming'
-import Hero from './components/hero'
+
 
 const App = () => {
   return (
     <BrowserRouter>
-     <Hero/>
+    
      <About/>
      <Projects/>
     </BrowserRouter>
