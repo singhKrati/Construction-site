@@ -12,7 +12,7 @@ const Navbar = () => {
     }
     const content=
     <>
-    <div className='lg:hidden block absolute top-20 w-full left-0 right-0 bg-white transition '>
+    <div className='lg:hidden block absolute top-10 w-full left-0 right-0 bg-white transition z-10 '>
     <ul className=' text-center text-xl p-10'>
                     <Link to="#About">
                         <li className='my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded-sm'>About </li>
@@ -30,8 +30,8 @@ const Navbar = () => {
     </>
   return (
     <>
-    <div className='h-10vh flex justify-between z-50 px-10 lg:py-5 xl:px-40  py-2 flex-1 pb-0  '>
-        <Link to="/"><div className='w-20 md:w-56 '>
+    <div className='h-10vh flex justify-between z-50 px-10 lg:py-5 xl:px-40  py-2 flex-1 pb-0 mb-4 lg:md-0'>
+        <Link to="/"><div className='w-20 md:w-36 mt-2 '>
            <img src={logo} className=''></img>
         </div>
         </Link>

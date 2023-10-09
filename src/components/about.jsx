@@ -8,12 +8,12 @@ import {TfiPencil} from 'react-icons/tfi'
 
 const About = () => {
   return (
-    <div  className='w-full h-full '>
+    <div  className='w-full h-full mt-10'>
 
       <div className=' text-5xl mb-24'><center><h1 className='align-middle '>About Us</h1></center></div>
   
 
-      <div className='flex  flex-col-reverse justify-center items-center lg:flex-row gap-3  m-2'>
+      <div className='flex  flex-col-reverse justify-center items-center lg:flex-row gap-3  lg:m-12'>
           <div className='w-1/2'>
               <div className='lg:m-6 pb-8 lg:pl-3 text-sm lg:text-xl'>
                 
