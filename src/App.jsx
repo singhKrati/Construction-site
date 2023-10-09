@@ -11,8 +11,13 @@ import Upcoming from './pages/upcoming'
 const App = () => {
   return (
     <BrowserRouter>
-    
-     <Home/>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/upcoming' element={<Upcoming/>}></Route>
+        <Route path='/completed' element={<Completed/>}></Route>
+        <Route path='/ongoing' element={<Ongoing/>}></Route>
+      </Routes>
+     
     </BrowserRouter>
   )
 }

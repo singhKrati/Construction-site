@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div  className='w-full h-full mt-10'>
 
-      <div className=' text-5xl mb-24'><center><h1 className='align-middle '>About Us</h1></center></div>
+      <div className=' text-5xl mb-24'><center><h1 className='align-middle font-serif'>About Us</h1></center></div>
   
 
       <div className='flex  flex-col-reverse justify-center items-center lg:flex-row gap-3  lg:m-12'>

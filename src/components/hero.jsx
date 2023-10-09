@@ -19,14 +19,12 @@ const Hero = () => {
       <div className="absolute inset-0 flex justify-center items-center">
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">
-            Your Hero Text
+            Building Future with Harmony Infra Reality
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8">
-            Subtitle or additional text goes here
+            Honest and Reliable since 1995s
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-lg">
-            Call to Action
-          </button>
+        
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ const Upcoming = () => {
        <div className=' text-lg lg:text-5xl font-bold lg:p-7 p-3'><center>UPCOMING PROJECTS</center></div>
 
        <div className='flex flex-col justify-center items-center  md:gap-20'>
-        <div className='flex'>
+        <div className='flex flex-col justify-center items-center md:flex-row md:gap-20'>
           <img src={silver_park1} className=" w-[200px] md:w-[300px] "></img>
           <div className='m-5'>
             <div className='text-sm md:text-xl font-bold'>SILVER PARK CHS, MIRAROAD, MUMBAI</div>
@@ -25,7 +25,7 @@ const Upcoming = () => {
           </div>
         </div>
 
-        <div className='flex'>
+        <div className='flex flex-col justify-center items-center md:flex-row md:gap-20'>
           <img src={nutan2} className=" w-[200px] md:w-[300px] "></img>
           <div className='m-5'>
             <div className='text-sm md:text-xl font-bold w-[300px]'>NUTAN KALPANA CHS CHS, MULUND, MUMBAI</div>
@@ -37,7 +37,7 @@ const Upcoming = () => {
           </div>
         </div>
 
-        <div className='flex'>
+        <div className='flex flex-col justify-center items-center md:flex-row md:gap-20'>
           <img src={symphony1} className=" w-[200px] md:w-[300px] "></img>
           <div className='m-5'>
             <div className='text-sm md:text-xl font-bold'> PRATHMESH SYMPHONY, ULWE, MUMBAI</div>

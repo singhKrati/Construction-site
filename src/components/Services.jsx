@@ -10,7 +10,7 @@ const Services = () => {
         <div className='flex flex-col lg:flex-row gap-11 mt-14 justify-center items-center m-5'>
 
 
-            <div className='w-[400px] flex flex-col m-4'>
+            <div className='w-[200px] md:w-[400px] p-3 flex flex-col m-4'>
                 <div>
                     <img src={construction_planning} className='w-[400px]'></img>
                 </div>
@@ -22,7 +22,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className='w-[400px] flex flex-col m-4'>
+            <div className='w-[200px] md:w-[400px] p-3 flex flex-col m-4'>
                 <div>
                     <img src={architectural_modelling} className='w-[400px]'></img>
                 </div>
@@ -34,7 +34,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className='w-[400px] flex flex-col m-4'>
+            <div className='w-[200px] md:w-[400px] p-3 flex flex-col m-4'>
                 <div>
                     <img src={construction_management} className='w-[400px]'></img>
                 </div>
