@@ -9,7 +9,7 @@ import Services from './components/Services'
 const Home = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar/>
       <Hero></Hero>
       <About></About>
       <Services></Services>
