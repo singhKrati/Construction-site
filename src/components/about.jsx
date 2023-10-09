@@ -8,7 +8,7 @@ import {TfiPencil} from 'react-icons/tfi'
 
 const About = () => {
   return (
-    <div  className='w-full h-full mt-10'>
+    <div  className='w-full h-full mt-10' id='About'>
 
       <div className=' text-5xl mb-24'><center><h1 className='align-middle font-serif'>About Us</h1></center></div>
   

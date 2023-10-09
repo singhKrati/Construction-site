@@ -3,8 +3,8 @@ import founder from '../assets/founder.jpeg'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col md:flex-row w-full text-white'>
-      <div className='bg-black w-full flex-col'>
+    <div className='flex flex-col md:flex-row w-full text-white' id='Footer'>
+      <div className='bg-neutral-500 w-full flex-col'>
         <div className='flex flex-col md:flex-row justify-center items-center'>
 
             <div className=' m-5'> 
@@ -19,21 +19,21 @@ const Footer = () => {
 
                     <p className='font-bold text-xl text-center'>CONTACT</p>
                     <p className='text-lg text-center'>Office</p>
-                    <p className='m-2 text-sky-700'>32 / Shiv Chambers, Gr.FLoor, Sector-11</p>
-                    <p className='m-2 text-sky-700'>CBD Belapur, Navi Mumbai-400 614.</p>
+                    <p className='m-2 text-sky-900'>32 / Shiv Chambers, Gr.FLoor, Sector-11</p>
+                    <p className='m-2 text-sky-900'>CBD Belapur, Navi Mumbai-400 614.</p>
                 </div>
 
                 <div className='lg:mt-6 lg:ml-20'>
 
                     <p className='text-lg text-center'>Phone Number</p>
-                    <p className='m-2 text-sky-700'>+91 996 903 6186</p>
-                    <p className='m-2 text-sky-700'>+91 022 4974 3594</p>
+                    <p className='m-2 text-sky-900'>+91 996 903 6186</p>
+                    <p className='m-2 text-sky-900'>+91 022 4974 3594</p>
                 </div>
 
-                <div className='lg:mt-6 lg:ml-20 '>
+                <div className='lg:mt-0 lg:ml-20 '>
 
                     <p className='text-lg text-center'>Email</p>
-                    <p className='m-2 text-sky-700'>harmonyinfra09@gmail.com</p>
+                    <p className='m-2 text-sky-900'>harmonyinfra09@gmail.com</p>
                 </div>
             </div>
 

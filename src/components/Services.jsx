@@ -14,8 +14,8 @@ const Services = () => {
                 <div>
                     <img src={construction_planning} className='w-[400px]'></img>
                 </div>
-                <div>
-                    <p className='text-lg font-bold text-center'>Preconstruction Planning</p>
+                <div className='m-3'>
+                    <p className='text-lg font-bold text-center font-serif'>Preconstruction Planning</p>
                 </div> 
                 <div>
                     <p>Preconstruction planning is the backbone of our construction. Our team has been trained to plan meticulously and execute with precision to ensure that everything is perfectly done. We'll help you plan your project from start to finish, ensuring that milestones are met and that the project is completed with the highest quality possible.</p>
@@ -26,8 +26,8 @@ const Services = () => {
                 <div>
                     <img src={architectural_modelling} className='w-[400px]'></img>
                 </div>
-                <div>
-                    <p className='text-lg font-bold text-center'>Architectural Modelling</p>
+                <div className='m-3'>
+                    <p className='text-lg font-bold text-center font-serif'>Architectural Modelling</p>
                 </div> 
                 <div>
                     <p>Architecture modelling plays a crucial role in every construction project. Our construction company offers a range of innovative and efficient architecture modelling services that will help you visualize your project before construction begins.</p>
@@ -38,8 +38,8 @@ const Services = () => {
                 <div>
                     <img src={construction_management} className='w-[400px]'></img>
                 </div>
-                <div>
-                    <p className='text-lg font-bold text-center'>Construction Management</p>
+                <div className='m-3'>
+                    <p className='text-lg font-bold text-center font-serif'>Construction Management</p>
                 </div> 
                 <div>
                     <p>We believe in delivering unparalleled construction management services that meet and exceed the goals of our clients. We employ a comprehensive approach to construction management that ensures effective planning, coordination, and supervision of every aspect of the project.</p>

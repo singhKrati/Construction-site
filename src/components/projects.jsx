@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Projects = () => {
   return (
-    <div >
+    <div  id='Projects'>
       <div className='text-4xl md:font-serif p-6 '><center>OUR PROJECTS</center></div>  
       <div className='flex flex-col lg:flex-row gap-11 mt-14 justify-center items-center '>
         <Link to={'/completed'}>
