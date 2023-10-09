@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Projects = () => {
   return (
     <div  id='Projects'>
-      <div className='text-4xl md:font-serif p-6 '><center>OUR PROJECTS</center></div>  
+      <div className='text-4xl font-serif md:font-serif p-6 '><center>OUR PROJECTS</center></div>  
       <div className='flex flex-col lg:flex-row gap-11 mt-14 justify-center items-center '>
         <Link to={'/completed'}>
         <div className='w-[200px] md:w-[400px] flex flex-col m-4'> 

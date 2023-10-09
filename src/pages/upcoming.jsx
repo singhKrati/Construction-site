@@ -9,7 +9,7 @@ import nutan2 from '../assets/nutan2.jpeg'
 
 const Upcoming = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-6'>
+    <div className='flex flex-col justify-center items-center gap-6 font-serif'>
        <div className=' text-lg lg:text-5xl font-bold lg:p-7 p-3'><center>UPCOMING PROJECTS</center></div>
 
        <div className='flex flex-col justify-center items-center  md:gap-20'>

@@ -30,7 +30,7 @@ const Navbar = () => {
     </>
   return (
     <>
-    <div className='h-10vh flex justify-between z-50 px-10 lg:py-5 xl:px-40  py-2 flex-1 pb-0 mb-4 lg:md-0'>
+    <div className='h-10vh flex justify-between z-50 px-10 lg:py-5 xl:px-40  py-2 flex-1 pb-0 mb-0 lg:md-0 bg-white'>
         <Link to="/"><div className='w-20 md:w-36 mt-2 '>
            <img src={logo} className='w-full'></img>
         </div>

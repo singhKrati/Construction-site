@@ -12,7 +12,7 @@ import residence4 from '../assets/residence4.jpeg'
 
 const Ongoing = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-6'>
+    <div className='flex flex-col justify-center items-center gap-6 font-serif'>
       <div className=' text-lg lg:text-5xl font-bold lg:p-7 p-3'><center>ONGOING PROJECTS</center></div>
 
         <div className='flex flex-col justify-center items-center md:flex-row md:gap-20'>

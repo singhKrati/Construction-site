@@ -5,8 +5,8 @@ import construction_management from '../assets/construction_management.jpeg'
 
 const Services = () => {
   return (
-    <div>
-        <div className='text-4xl md:font-serif p-6'><center>OUR SERVICES</center></div>
+    <div className=''>
+        <div className='text-4xl font-serif md:font-serif p-6'><center>OUR SERVICES</center></div>
         <div className='flex flex-col lg:flex-row gap-11 mt-14 justify-center items-center m-5'>
 
 
