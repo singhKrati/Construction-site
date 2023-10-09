@@ -11,9 +11,7 @@ import Upcoming from './pages/upcoming'
 const App = () => {
   return (
     <BrowserRouter>
-    
-     <About/>
-     <Projects/>
+     <Home/>
     </BrowserRouter>
   )
 }
