@@ -11,6 +11,7 @@ import Upcoming from './pages/upcoming'
 const App = () => {
   return (
     <BrowserRouter>
+    
      <Home/>
     </BrowserRouter>
   )
